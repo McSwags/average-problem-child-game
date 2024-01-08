@@ -3,7 +3,7 @@
 #
 # could be useful if I can figure out real time audio streaming
 # in GM2 it seems like its possible to stream from ogg files like this one: http://stream.punkrockers-radio.de:8000/prr.ogg
-# 
+# edit: it totally is but its just a pain in the ass to stream from the web so im not gonna bother with it
 # https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_create_stream.htm
 #
 # I2Loc database ID;Url;DataFormat;AudioFormat;Station (optional);Genres (optional);Bitrate (in kbit/s, optional);Rating (0-5, optional);Description (optional);ExcludeCodec (optional);ChunkSize (in KB, optional);BufferSize (in KB, optional)
