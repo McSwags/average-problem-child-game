@@ -1,0 +1,266 @@
+# Radio PRO 2.9.5
+# © 2015-2018 by crosstales LLC (https://www.crosstales.com)
+#
+# could be useful if I can figure out real time audio streaming
+# in GM2 it seems like its possible to stream from ogg files like this one: http://stream.punkrockers-radio.de:8000/prr.ogg
+# edit: it totally is but its just a pain in the ass to stream from the web so im not gonna bother with it
+# https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_create_stream.htm
+#
+# I2Loc database ID;Url;DataFormat;AudioFormat;Station (optional);Genres (optional);Bitrate (in kbit/s, optional);Rating (0-5, optional);Description (optional);ExcludeCodec (optional);ChunkSize (in KB, optional);BufferSize (in KB, optional)
+
+RADIO_001;http://185.33.22.15:11006;Stream;MP3;http://1.fm;70s;128;4;;None
+RADIO_002;http://185.33.21.112:80/90s_128;Stream;MP3;http://1.fm;90s;128;4;;None
+RADIO_003;http://185.33.21.112:11017;Stream;MP3;http://1.fm;country;128;2;;None
+RADIO_004;http://185.33.21.112:11149;Stream;MP3;http://1.fm;latin;128;2;;None
+RADIO_005;http://185.33.22.15:11250;Stream;MP3;http://1.fm;top40;56;1;;MP3_NLayer
+RADIO_006;http://185.33.21.112:11253;Stream;MP3;http://1.fm;trance;128;4;;None
+RADIO_007;http://185.33.21.112:11022;Stream;MP3;http://1.fm;vocal;128;2;;None
+RADIO_008;http://185.33.21.112:11025;Stream;MP3;http://1.fm;jazz;128;3;;None
+RADIO_009;http://185.33.21.112:11170;Stream;MP3;http://1.fm;urban;128;4;;None
+RADIO_010;http://185.33.21.112:11113;Stream;MP3;http://1.fm;lounge;128;4;;None
+RADIO_011;http://185.33.21.112:11010;Stream;MP3;http://1.fm;80s;128;5;;None
+RADIO_012;http://185.33.21.112:11173;Stream;MP3;http://1.fm;ballads;128;3;;None
+RADIO_013;http://185.33.21.112:11029;Stream;MP3;http://1.fm;trance;128;4;;None
+RADIO_014;http://185.33.21.112:11002;Stream;MP3;http://1.fm;oldies, 50s, 60s;128;3;;None
+RADIO_015;http://185.33.21.112:11230;Stream;MP3;http://1.fm;jazz;128;4;;None
+RADIO_016;http://185.33.21.112:11049;Stream;MP3;http://1.fm;bossa nova;128;2;;None
+RADIO_017;http://185.33.21.112:11053;Stream;MP3;http://1.fm;ambient, nature;128;3;;None
+RADIO_018;http://185.33.21.112:11058;Stream;MP3;http://1.fm;ambient;64;1;;None
+RADIO_019;http://185.33.21.112:11065;Stream;MP3;http://1.fm;chill;128;4;;None
+RADIO_020;http://185.33.21.112:11073;Stream;MP3;http://1.fm;dance;128;3;;None
+RADIO_021;http://185.33.21.112:11061;Stream;MP3;http://1.fm;country;128;2;;None
+RADIO_022;http://185.33.21.112:11093;Stream;MP3;http://1.fm;rock;128;4;;None
+RADIO_023;http://185.33.21.112:11085;Stream;MP3;http://1.fm;chill;256;5;;None
+RADIO_024;http://185.33.21.112:11089;Stream;MP3;http://1.fm;country;128;2;;None
+RADIO_025;http://185.33.21.243:3698;Stream;MP3;http://1.fm;dance;256;4;;None
+RADIO_026;http://185.33.21.112:11233;Stream;MP3;http://1.fm;ambient;128;3;;MP3_NLayer
+RADIO_027;http://185.33.21.112:11109;Stream;MP3;http://1.fm;dubstep;128;3;;None
+RADIO_028;http://185.33.21.112:11237;Stream;MP3;http://1.fm;latin;128;2;;None
+RADIO_029;http://185.33.21.112:11121;Stream;MP3;http://1.fm;funk;256;4;;None
+RADIO_030;http://185.33.21.112:11197;Stream;MP3;http://1.fm;chill;128;4;;None
+RADIO_031;http://185.33.21.112:11133;Stream;MP3;http://1.fm;hard rock;128;4;;None
+RADIO_032;http://185.33.21.112:11137;Stream;MP3;http://1.fm;italian;128;3;;None
+RADIO_033;http://185.33.21.112:11142;Stream;MP3;http://1.fm;hiphop;64;1;;None
+RADIO_034;http://185.33.21.112:11145;Stream;MP3;http://1.fm;kids, children;128;2;;None
+RADIO_035;http://185.33.21.112:11153;Stream;MP3;http://1.fm;ballads;128;3;;None
+RADIO_036;http://185.33.22.15:11158;Stream;MP3;http://1.fm;80s;128;4;;None
+RADIO_037;http://185.33.21.112:11161;Stream;MP3;http://1.fm;ost, soundtrack;128;5;;None
+RADIO_038;http://185.33.21.112:11165;Stream;MP3;http://1.fm;brazilian;128;2;;None
+RADIO_039;http://185.33.21.112:11038;Stream;MP3;http://1.fm;baroque, classic, chamber;128;3;;None
+RADIO_040;http://185.33.21.112:11077;Stream;MP3;http://1.fm;classic, symphony, chamber;128;4;;None
+RADIO_041;http://185.33.22.15:11202;Stream;MP3;http://1.fm;reggae;128;4;;None
+RADIO_042;http://185.33.21.112:11205;Stream;MP3;http://1.fm;rock;256;4;;None
+RADIO_043;http://185.33.21.112:11209;Stream;MP3;http://1.fm;brazilian;128;2;;None
+RADIO_044;http://185.33.21.112:11217;Stream;MP3;http://1.fm;smooth jazz;128;3;;None
+RADIO_045;http://185.33.22.15:11225;Stream;MP3;http://1.fm;motown;128;4;;None
+RADIO_046;http://185.33.21.112:11241;Stream;MP3;http://1.fm;latin;128;3;;None
+RADIO_047;http://streaming.radionomy.com/1000ClassicalHits;Stream;MP3;http://1000classicalhits.playtheradio.com/;baroque, chamber, classic, opera, symphony;128;4;;None
+RADIO_048;http://streaming.radionomy.com/ABCRelax;Stream;MP3;http://abcrelax.com/;soul, jazz, ambient, easy listening, lounge;128;4;;None
+RADIO_049;http://streaming.radionomy.com/AfrobeatsNation;Stream;MP3;http://afrobeatsnation.com/;african, world, worldbeat, hiphop, gospel;128;4;;None
+RADIO_050;http://streaming.radionomy.com/Ambiance-Reggae;Stream;MP3;http://ambiance-reggae.playtheradio.com/;dub, reggae;128;4;;None
+RADIO_051;http://cabhs30.sonixcast.com:9764/stream/;Stream;MP3;http://asiadreamradio.com/;japanese, hits, asian, pop;128;3;;None
+RADIO_052;http://cabhs30.sonixcast.com:9628/stream/;Stream;MP3;http://asiadreamradio.com/;japanese, hits, asian, pop;128;3;;None
+#RADIO_053;http://144.76.138.169:8200/stream48/;Stream;MP3;http://breakz.fm/;hiphop, r'n'b, house, rap;128;3;None;None
+RADIO_054;http://listen.clubtime.fm/tunein-mp3-asx;Stream;MP3;http://clubtime.fm;club;128;3;;None
+RADIO_055;http://listen.coretime.fm/tunein-mp3-asx;Stream;MP3;http://coretime.fm;trance;192;3;;None
+RADIO_056;http://listen.hardbase.fm/tunein-mp3-asx;Stream;MP3;http://hardbase.fm;hardcore;192;3;;None
+RADIO_057;http://listen.housetime.fm/tunein-mp3-asx;Stream;MP3;http://housetime.fm;house;192;3;;None
+RADIO_058;http://listen.technobase.fm/tunein-mp3-asx;Stream;MP3;http://technobase.fm;techno;192;3;;None
+RADIO_059;http://listen.trancebase.fm/tunein-mp3-asx;Stream;MP3;http://trancebase.fm;trance;192;3;;None
+RADIO_060;http://stream.dancewave.online:8080/dance.mp3;Stream;MP3;http://dancewave.online;dance;128;4;All Dance from 2000. Global dance radio station. The hottest Dance and Club Music from across the Planet!;None
+RADIO_061;http://streaming.radionomy.com/Halloweenradionet-Atmosphere;Stream;MP3;http://halloweenradio.net/atmosphere/;medieval, effects;128;3;Unmasking the underworld of creepy sounds and unsettling noise, the ominous poltergeists in our dungeons bring you Halloween radio Atmosphere. Transform your mansion into a mysterious, sinister, shuddery chateau with our shrieking atmosphere channel.;None
+RADIO_062;http://streaming.radionomy.com/Halloweenradionet-Oldies;Stream;MP3;http://halloweenradio.net/oldies;hits, 60s, oldies;128;3;From our dearly departed department comes Halloweenradio.net Oldies. A decaying fest of creaking old bone rattling songs from the past, in true spirit of the boogie-man. Take out you pumpkins and give them a legacy carving, while listening to demons of times past.;None
+RADIO_063;https://streaming.hotmixradio.fr/hotmixradio-80-128.mp3;Stream;MP3;http://hotmixradio.fr;80s;128;4;;None
+RADIO_064;https://streaming.hotmixradio.fr/hotmixradio-90-128.mp3;Stream;MP3;http://hotmixradio.fr;90s;128;4;;None
+RADIO_065;https://streaming.hotmixradio.fr/hotmixradio-baby-128.mp3;Stream;MP3;http://hotmixradio.fr;baby, children, french;128;2;;None
+RADIO_066;http://listen.radionomy.com/hotmixradio-dance-128;Stream;MP3;http://hotmixradio.fr;dance;128;4;;None
+RADIO_067;https://streaming.hotmixradio.fr/hotmixradio-frenchy-128.mp3;Stream;MP3;http://hotmixradio.fr;french;128;3;;None
+RADIO_068;https://streaming.hotmixradio.fr/hotmixradio-funky-128.mp3;Stream;MP3;http://hotmixradio.fr;funk;128;4;;None
+RADIO_069;https://streaming.hotmixradio.fr/hotmixradio-game-128.mp3;Stream;MP3;http://hotmixradio.fr;french;128;3;;None
+RADIO_070;https://streaming.hotmixradio.fr/hotmixradio-golds-128.mp3;Stream;MP3;http://hotmixradio.fr;alltime;128;4;;None
+RADIO_071;https://streaming.hotmixradio.fr/hotmixradio-hiphop-128.mp3;Stream;MP3;http://hotmixradio.fr;hiphop;128;3;;None
+RADIO_072;https://streaming.hotmixradio.fr/hotmixradio-hits-128.mp3;Stream;MP3;http://hotmixradio.fr;hits;128;3;;None
+RADIO_073;https://streaming.hotmixradio.fr/hotmixradio-hot-128.mp3;Stream;MP3;http://hotmixradio.fr;love;128;4;;None
+RADIO_074;https://streaming.hotmixradio.fr/hotmixradio-lounge-128.mp3;Stream;MP3;http://hotmixradio.fr;lounge;128;4;;None
+RADIO_075;https://streaming.hotmixradio.fr/hotmixradio-metal-128.mp3;Stream;MP3;http://hotmixradio.fr;metal;128;3;;None
+RADIO_076;https://streaming.hotmixradio.fr/hotmixradio-new-128.mp3;Stream;MP3;http://hotmixradio.fr;charts;128;4;;None
+RADIO_077;https://streaming.hotmixradio.fr/hotmixradio-rock-128.mp3;Stream;MP3;http://hotmixradio.fr;rock;128;4;;None
+RADIO_078;https://streaming.hotmixradio.fr/hotmixradio-sunny-128.mp3;Stream;MP3;http://hotmixradio.fr;party;128;4;;None
+RADIO_079;https://streaming.hotmixradio.fr/hotmixradio-vip-128.mp3;Stream;MP3;http://hotmixradio.fr;charts;128;3;;None
+#RADIO_080;http://streaming.hotmixradio.fr/hotmixradio-2000-128.mp3;Stream;MP3;http://hotmixradio.fr;00s;128;4;;NONE
+RADIO_081;http://50.22.212.203:8025/stream;Stream;MP3;http://jaygerfm.com;alltime;96;2;;None
+RADIO_082;http://streaming.radionomy.com/Jazz4ever;Stream;MP3;http://jazz4ever.net/;jazz;128;4;;None
+RADIO_083;http://streaming.radionomy.com/-LoveRadio;Stream;MP3;http://love.popradio.co/;romantic, easy listening;128;3;;None
+RADIO_084;http://streaming.radionomy.com/Nature-1-Max;Stream;MP3;http://nature-1-max.playtheradio.com/;nature, ambient, chill;128;3;;None
+RADIO_085;http://178.18.137.246:80;Stream;MP3;http://pinguinradio.com;alternative;320;5;;None
+RADIO_086;http://streaming.radionomy.com/RadioNature;Stream;MP3;http://radionature.playtheradio.com/;ambient, new age, easy listening, spiritual;128;4;Meditation, Relaxation, Yoga... If you want to relax;None
+RADIO_087;http://stream-sd1.radioparadise.com:80/ogg-96;Stream;OGG;http://radioparadise.com;rock;96;2;;None
+RADIO_088;https://streaming.shoutcast.com/roswelluforadio;Stream;MP3;http://roswelluforadio.com/;arts, entertainment, talk;128;2;;None
+RADIO_089;http://streaming.radionomy.com/RSdancestation;Stream;MP3;http://rsdancestation.com/;dance, trance;128;4;RS dance station plays today's hottest dance hits and dance tracks. One of our main goal is to let you enjoy your own dancing environment 24/7/365. This is your hip dance station for party generation in every nation.;None
+RADIO_090;http://streaming.radionomy.com/SeneEthiopia;Stream;MP3;http://seneethiopia.playtheradio.com/;african, world, reggae;128;3;;None
+RADIO_091;http://ice1.somafm.com/bagel-128-mp3;Stream;MP3;http://somafm.com;alternative;128;4;What alternative rock radio should sound like.;None
+RADIO_092;http://ice1.somafm.com/beatblender-128-mp3;Stream;MP3;http://somafm.com;house;128;3;A late night blend of deep-house and downtempo chill.;MP3_NLayer
+RADIO_093;http://ice1.somafm.com/brfm-128-mp3;Stream;MP3;http://somafm.com;rock;128;3;From the Playa to the world, back for the 2015 Burning Man festival.;MP3_NLayer
+RADIO_094;http://ice1.somafm.com/bootliquor-320-mp3;Stream;MP3;http://somafm.com;country;320;3;Americana Roots music for Cowhands, Cowpokes and Cowtippers.;None
+RADIO_095;http://ice1.somafm.com/cliqhop-128-mp3;Stream;MP3;http://somafm.com;dance;128;4;Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.;MP3_NLayer
+RADIO_096;http://ice1.somafm.com/covers-128-mp3;Stream;MP3;http://somafm.com;covers;128;4;Just covers. Songs you know by artists you don't. We've got you covered.;MP3_NLayer
+RADIO_097;http://ice1.somafm.com/deepspaceone-128-mp3;Stream;MP3;http://somafm.com;ambient;128;4;Deep ambient electronic, experimental and space music. For inner and outer space exploration.;MP3_NLayer
+RADIO_098;http://ice1.somafm.com/defcon-128-mp3;Stream;MP3;http://somafm.com;electronic;128;4;Music for Hacking. The DEF CON Year-Round Channel.;MP3_NLayer
+RADIO_099;http://ice1.somafm.com/digitalis-128-mp3;Stream;MP3;http://somafm.com;rock;128;5;Digitally affected analog rock to calm the agitated heart.;MP3_NLayer
+RADIO_100;http://ice1.somafm.com/doomed-128-mp3;Stream;MP3;http://somafm.com;industrial;128;4;Dark industrial/ambient music for tortured souls.;MP3_NLayer
+RADIO_101;http://ice1.somafm.com/dronezone-128-mp3;Stream;MP3;http://somafm.com;electronic;128;4;Served best chilled, safe with most medications. Atmospheric textures with minimal beats.;MP3_NLayer
+RADIO_102;http://ice1.somafm.com/dubstep-256-mp3;Stream;MP3;http://somafm.com;dubstep;256;4;Dubstep, Dub and Deep Bass. May damage speakers at high volume.;None
+#RADIO_103;http://ice1.somafm.com/earwaves-128-mp3;Stream;MP3;http://somafm.com;electronic;128;4;Spanning the history of electronic and experimental music from the early pioneers to the latest innovators.;MP3_NLayer
+RADIO_104;http://ice1.somafm.com/fluid-128-mp3;Stream;MP3;http://somafm.com;hiphop;128;4;Drown in the electronic sound of instrumental hiphop, future soul and liquid trap.;MP3_NLayer
+RADIO_105;http://ice1.somafm.com/folkfwd-128-mp3;Stream;MP3;http://somafm.com;folk;128;3;Indie Folk, Alt-folk and the occasional folk classics.;MP3_NLayer
+RADIO_106;http://ice1.somafm.com/groovesalad-128-mp3;Stream;MP3;http://somafm.com;ambient;128;4;A nicely chilled plate of ambient/downtempo beats and grooves.;MP3_NLayer
+RADIO_107;http://ice1.somafm.com/illstreet-128-mp3;Stream;MP3;http://somafm.com;lounge;128;3;Classic bachelor pad, playful exotica and vintage music of tomorrow.;MP3_NLayer
+RADIO_108;http://ice1.somafm.com/indiepop-128-mp3;Stream;MP3;http://somafm.com;indie;128;4;New and classic favorite indie pop tracks.;MP3_NLayer
+RADIO_109;http://ice1.somafm.com/seventies-320-mp3;Stream;MP3;http://somafm.com;70s;320;4;Mellow album rock from the Seventies. Yacht friendly.;None
+RADIO_110;http://ice1.somafm.com/lush-128-mp3;Stream;MP3;http://somafm.com;electronic;128;4;Sensuous and mellow vocals, mostly female, with an electronic influence.;MP3_NLayer
+RADIO_111;http://ice1.somafm.com/metal-128-mp3;Stream;MP3;http://somafm.com;metal;128;3;From black to doom, prog to sludge, thrash to post, stoner to crossover, punk to industrial.;MP3_NLayer
+RADIO_112;http://ice1.somafm.com/missioncontrol-128-mp3;Stream;MP3;http://somafm.com;experimental;128;3;Celebrating NASA and Space Explorers everywhere.;MP3_NLayer
+RADIO_113;http://ice1.somafm.com/poptron-128-mp3;Stream;MP3;http://somafm.com;pop;128;5;Electropop and indie dance rock with sparkle and pop.;MP3_NLayer
+RADIO_114;http://ice1.somafm.com/secretagent-128-mp3;Stream;MP3;http://somafm.com;lounge;128;4;The soundtrack for your stylish, mysterious, dangerous life. For Spies and PIs too!;MP3_NLayer
+RADIO_115;http://ice1.somafm.com/7soul-128-mp3;Stream;MP3;http://somafm.com;soul;128;3;Vintage soul tracks from the original 45 RPM vinyl.;None
+RADIO_116;http://ice1.somafm.com/sf1033-128-mp3;Stream;MP3;http://somafm.com;urban;128;3;Live fire/police scanner audio from San Francisco processed and mixed with ambient and experimental music. A surreal audio zeitgeist of the city.;MP3_NLayer
+RADIO_117;http://ice1.somafm.com/sonicuniverse-192-mp3;Stream;MP3;http://somafm.com;jazz;192;4;Transcending the world of jazz with eclectic, avant-garde takes on tradition.;None
+RADIO_118;http://ice1.somafm.com/spacestation-128-mp3;Stream;MP3;http://somafm.com;electronic;128;4;Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.;MP3_NLayer
+RADIO_119;http://ice1.somafm.com/suburbsofgoa-128-mp3;Stream;MP3;http://somafm.com;indian;128;3;Desi-influenced Asian world beats and beyond.;MP3_NLayer
+#RADIO_120;http://ice1.somafm.com/silent-128-mp3;Stream;MP3;http://somafm.com;ambient;128;3;Chilled ambient electronic music for calm inner atmospheres from Silent Records.;MP3_NLayer
+RADIO_121;http://ice1.somafm.com/thetrip-128-mp3;Stream;MP3;http://somafm.com;progressive;128;4;Progressive house / trance. Tip top tunes.;None
+RADIO_122;http://ice1.somafm.com/thistle-128-mp3;Stream;MP3;http://somafm.com;celtic;128;4;Exploring music from Celtic roots and branches.;MP3_NLayer
+RADIO_123;http://ice1.somafm.com/u80s-256-mp3;Stream;MP3;http://somafm.com;80s;256;4;Early 80s UK Synthpop and a bit of New Wave.;None
+RADIO_124;http://ice1.somafm.com/christmas-256-mp3;Stream;MP3;http://somafm.com;xmas, lounge;256;3;Chilled holiday grooves and classic winter lounge tracks. (Kid and Parent safe!);None
+RADIO_125;http://ice1.somafm.com/xmasinfrisko-128-mp3;Stream;MP3;http://somafm.com;xmas, alternative;128;3;SomaFM's wacky and eclectic holiday mix. Not for the easily offended.;MP3_NLayer
+RADIO_126;http://ice1.somafm.com/xmasrocks-128-mp3;Stream;MP3;http://somafm.com;xmas, alternative;128;3;Have your self an indie/alternative holiday season!;MP3_NLayer
+RADIO_127;http://ice1.somafm.com/jollysoul-128-mp3;Stream;MP3;http://somafm.com;seasonal, alternative;128;3;Where we cut right to the soul of the season!;MP3_NLayer
+RADIO_128;http://streaming.radionomy.com/1000HITSClassicalMusic;Stream;MP3;http://www.1000hitsclassical.com/;baroque, chamber, classic, symphony;128;3;;None
+RADIO_129;http://streaming.radionomy.com/100-HIT-radio;Stream;MP3;http://www.100hitradio.net/;charts;128;4;;None
+RADIO_130;http://streaming.radionomy.com/100-DJAY;Stream;MP3;http://www.100radios.net/;electro, hits, dubstep, dance;128;4;;None
+RADIO_131;http://streaming.radionomy.com/100Urban;Stream;MP3;http://www.100radios.net/;hits, hiphop, r'n'b, rap, urban;128;4;;None
+RADIO_132;http://streaming.radionomy.com/101SMOOTHJAZZ;Stream;MP3;http://www.101smoothjazz.com/;jazz, easy listening, nu jazz, lounge;128;4;;None
+RADIO_133;https://streaming.shoutcast.com/57ChevyRadio16;Stream;MP3;http://www.57chevyradio.com/;oldies, hits, 60s, rock'n'roll, r'n'b;128;3;Golden oldies from the 60s and late 50s. Like the 57 Chevy, these are the songs that stood the test of time. All the hits and lots of hidden gems too.;None
+RADIO_134;http://streaming.radionomy.com/ABC-DISCO-FUNK;Stream;MP3;http://www.abcdanceradio.com/;funk, soul, motown, r'n'b;128;4;;None
+RADIO_135;http://streaming.radionomy.com/ABSOLUTECHILLOUT;Stream;MP3;http://www.absolutechillout.com/;chill, easy listening, lounge, downtempo, nu jazz;128;4;;None
+RADIO_136;http://184.107.138.90:9500/stream/1/;Stream;MP3;http://www.allgames.com/;game, arts;128;4;Videogame music and podcasts driven by the community and social media;None
+RADIO_137;http://warpradio.com:8000/stream/9/;Stream;MP3;http://www.alohajoe.com/;jazz, hawaiian;128;3;Home of America's Premier Hawaiian Radio Station;None
+RADIO_138;http://streaming.radionomy.com/Alpenradio-Volksmusik;Stream;MP3;http://www.alpenradio.net/;oldies, children, folkloric, polka, world, german;128;2;The best german folk songs. Volksmusik, Schlager und Blasmusik.;None
+RADIO_139;http://94.23.252.14:8067/;Stream;MP3;http://www.ambinature.xyz/;nature, ambient, chill;128;3;;None
+RADIO_140;http://streaming.radionomy.com/CelticMoon;Stream;MP3;http://www.celticradio.net/;celtic, folk, new age, medieval;128;3;An Exquisite Mix of Irish, Scottish & Celtic Music. Perfect for night time listening when you desire the softer side of Celtic Music! Dark halls of the Castle await you - illuminated by the glow of the Celtic Moon.. Welcome to Serenity!;None
+RADIO_141;http://streaming.radionomy.com/Celt-Rock-Radio;Stream;MP3;http://www.celticradio.net/;celtic, rock, medieval, folk;128;3;A rowdy mix of hard rocking Celtic music from the Pubs of America, Canada, Ireland and Scotland. Warning: Celt Rock Radio may result in the consuming of large quantities of Stout and other intoxicating beverages. Ok, let's party!;None
+RADIO_142;http://streaming.radionomy.com/HighlanderRadio;Stream;MP3;http://www.celticradio.net/;celtic, medieval, folk;128;4;Highlander Radio is an award winning internet radio stream broadcasting a wide range of Celtic Music 24 hours day! From the heart pounding Pipes & Drums of the Highlands of Scotland, to the inspirational Gaelic vocals of Ireland. Music, Stories, News, History and more!;None
+RADIO_143;http://streaming.radionomy.com/CHOCOLAT-RADIO;Stream;MP3;http://www.chocolatradio.com/;ambient, chill, easy listening, lounge, trip-hop;128;4;;None
+RADIO_144;http://108.61.20.171:10042/stream/;Stream;MP3;http://www.classicrock109.com/;classic rock;128;4;Classic rock from the 60s, 70s, 80s and 90s. Music that stands the test of time.;None
+RADIO_145;http://streaming.radionomy.com/Discovery-2-Radio;Stream;MP3;http://www.discovery2radio.eu/;hits, pop, rock;128;3;;None
+RADIO_146;http://streaming.radionomy.com/4allsounds;Stream;MP3;http://www.djpeterboer.nl/4allsounds.html;alltime;128;3;for all sounds ever made there is a place and that's right here!;None
+RADIO_147;http://streaming.radionomy.com/ENDSENTRadio;Stream;MP3;http://www.eatingndastreets.com/;r'n'b, hiphop, urban, rap, indie;128;4;;None
+RADIO_148;http://groove.wavestreamer.com:7115/live;Stream;MP3;http://www.electroswing-radio.com/;electro;128;4;;None
+RADIO_149;https://energy00s.ice.infomaniak.ch/energy00s-high.mp3;Stream;MP3;http://www.energyzueri.ch/;00s;128;4;;None
+RADIO_150;https://energy80s.ice.infomaniak.ch/energy80s-high.mp3;Stream;MP3;http://www.energyzueri.ch/;80s;128;4;;None
+RADIO_151;https://energy90s.ice.infomaniak.ch/energy90s-high.mp3;Stream;MP3;http://www.energyzueri.ch/;90s;128;4;;None
+RADIO_152;https://energyblack.ice.infomaniak.ch/energyblack-high.mp3;Stream;MP3;http://www.energyzueri.ch/;black;128;3;;None
+RADIO_153;https://energycharts.ice.infomaniak.ch/energycharts-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;3;;None
+RADIO_154;https://energydance.ice.infomaniak.ch/energydance-high.mp3;Stream;MP3;http://www.energyzueri.ch/;dance;128;4;;None
+RADIO_155;https://energyrock.ice.infomaniak.ch/energyrock-high.mp3;Stream;MP3;http://www.energyzueri.ch/;rock;128;3;;None
+RADIO_156;https://energysoundtrack.ice.infomaniak.ch/energysoundtrack-high.mp3;Stream;MP3;http://www.energyzueri.ch/;soundtrack;128;4;;None
+RADIO_157;https://energyswiss.ice.infomaniak.ch/energyswiss-high.mp3;Stream;MP3;http://www.energyzueri.ch/;swiss;128;3;;None
+RADIO_158;https://energyusercharts.ice.infomaniak.ch/energyusercharts-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;3;;None
+RADIO_159;https://energy10s.ice.infomaniak.ch/energy10s-high.mp3;Stream;MP3;http://www.energyzueri.ch/;10s;128;4;;None
+RADIO_160;https://energygirl.ice.infomaniak.ch/energygirl-high.mp3;Stream;MP3;http://www.energyzueri.ch/;girls;128;4;;None
+RADIO_161;https://energyhot.ice.infomaniak.ch/energyhot-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;4;;None
+RADIO_162;https://energysummer.ice.infomaniak.ch/energysummer-high.mp3;Stream;MP3;http://www.energyzueri.ch/;party;128;4;;None
+RADIO_163;https://energylove.ice.infomaniak.ch/energylove-high.mp3;Stream;MP3;http://www.energyzueri.ch/;love;128;4;;None
+RADIO_164;https://energyworkout.ice.infomaniak.ch/energyworkout-high.mp3;Stream;MP3;http://www.energyzueri.ch/;fitness, sport;128;4;;None
+RADIO_165;https://energylatin.ice.infomaniak.ch/energylatin-high.mp3;Stream;MP3;http://www.energyzueri.ch/;latin;128;3;;None
+RADIO_166;https://energygerman.ice.infomaniak.ch/energygerman-high.mp3;Stream;MP3;http://www.energyzueri.ch/;german;128;3;;None
+RADIO_167;https://energydeep.ice.infomaniak.ch/energydeep-high.mp3;Stream;MP3;http://www.energyzueri.ch/;relax;128;4;;None
+RADIO_168;https://energymix.ice.infomaniak.ch/energymix-high.mp3;Stream;MP3;http://www.energyzueri.ch/;pop, mix;128;4;;None
+RADIO_169;https://energyfolk.ice.infomaniak.ch/energyfolk-high.mp3;Stream;MP3;http://www.energyzueri.ch/;folk;128;3;;None
+RADIO_170;https://energyitaly.ice.infomaniak.ch/energyitaly-high.mp3;Stream;MP3;http://www.energyzueri.ch/;italian;128;3;;None
+RADIO_171;https://energybalkanhits.ice.infomaniak.ch/energybalkanhits-high.mp3;Stream;MP3;http://www.energyzueri.ch/;balkan;128;3;;None
+RADIO_172;https://energyair.ice.infomaniak.ch/energyair-high.mp3;Stream;MP3;http://www.energyzueri.ch/;live, concert;128;4;;None
+RADIO_173;https://energyfashionnight.ice.infomaniak.ch/energyfashionnight-high.mp3;Stream;MP3;http://www.energyzueri.ch/;alternative;128;4;;None
+RADIO_174;https://energystarnight.ice.infomaniak.ch/energystarnight-high.mp3;Stream;MP3;http://www.energyzueri.ch/;live, concert;128;4;;None
+RADIO_175;https://energylivesession.ice.infomaniak.ch/energylivesession-high.mp3;Stream;MP3;http://www.energyzueri.ch/;live;128;4;;None
+RADIO_176;https://energyredsession.ice.infomaniak.ch/energyredsession-high.mp3;Stream;MP3;http://www.energyzueri.ch/;live;128;4;;None
+RADIO_177;https://energyxmas.ice.infomaniak.ch/energyxmas-high.mp3;Stream;MP3;http://www.energyzueri.ch/;xmas;128;2;;None
+RADIO_178;https://energypartyhits.ice.infomaniak.ch/energypartyhits-high.mp3;Stream;MP3;http://www.energyzueri.ch/;party;128;4;;None
+RADIO_179;https://energyustop40.ice.infomaniak.ch/energyustop40-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;4;;None
+RADIO_180;https://energyunplugged.ice.infomaniak.ch/energyunplugged-high.mp3;Stream;MP3;http://www.energyzueri.ch/;unplugged;128;4;;None
+RADIO_181;https://energyrainbow.ice.infomaniak.ch/energyrainbow-high.mp3;Stream;MP3;http://www.energyzueri.ch/;lgbt;128;4;;None
+RADIO_182;https://energyfrench.ice.infomaniak.ch/energyfrench-high.mp3;Stream;MP3;http://www.energyzueri.ch/;french;128;3;;None
+RADIO_183;https://energymundart.ice.infomaniak.ch/energymundart-high.mp3;Stream;MP3;http://www.energyzueri.ch/;swiss;128;3;;None
+RADIO_184;https://energyatwork.ice.infomaniak.ch/energyatwork-high.mp3;Stream;MP3;http://www.energyzueri.ch/;work;128;4;;None
+RADIO_185;https://energyonehitwonder.ice.infomaniak.ch/energyonehitwonder-high.mp3;Stream;MP3;http://www.energyzueri.ch/;pop, hits;128;4;;None
+RADIO_186;https://energyrap.ice.infomaniak.ch/energyrap-high.mp3;Stream;MP3;http://www.energyzueri.ch/;rap, hiphop;128;4;;None
+RADIO_187;https://energyreggae.ice.infomaniak.ch/energyreggae-high.mp3;Stream;MP3;http://www.energyzueri.ch/;reggae;128;4;;MP3_NLayer
+RADIO_188;https://energyalltimehits.ice.infomaniak.ch/energyalltimehits-high.mp3;Stream;MP3;http://www.energyzueri.ch/;pop, hits;128;4;;None
+RADIO_189;https://energyclub.ice.infomaniak.ch/energyclub-high.mp3;Stream;MP3;http://www.energyzueri.ch/;club;128;4;;None
+#RADIO_190;https://energysongoftheday.ice.infomaniak.ch/energysongoftheday-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;4;;None
+RADIO_191;https://energypop.ice.infomaniak.ch/energypop-high.mp3;Stream;MP3;http://www.energyzueri.ch/;pop;128;4;;None
+RADIO_192;https://energyweekend.ice.infomaniak.ch/energyweekend-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts, chill;128;4;;None
+RADIO_193;https://energycountryhits.ice.infomaniak.ch/energycountryhits-high.mp3;Stream;MP3;http://www.energyzueri.ch/;country;128;3;;None
+RADIO_194;https://energyhappy.ice.infomaniak.ch/energyhappy-high.mp3;Stream;MP3;http://www.energyzueri.ch/;happy;128;4;;None
+RADIO_195;https://energydiscover.ice.infomaniak.ch/energydiscover-high.mp3;Stream;MP3;http://www.energyzueri.ch/;charts;128;4;;None
+RADIO_196;http://gdsfm.out.airtime.pro:8000/gdsfm_a;Stream;MP3;http://www.gds.fm/;alternative;192;5;;None
+RADIO_197;http://91.121.104.123:8000/stream/1/;Stream;MP3;http://www.generationdiscofunk.com/;disco, funk, soul, urban;128;4;;None
+RADIO_198;http://streaming.radionomy.com/Halloweenradionet-Kids;Stream;MP3;http://www.halloweenradio.net/;children, comedy, soundtracks;128;2;;None
+RADIO_199;http://streaming.radionomy.com/Halloweenradionet-Movies;Stream;MP3;http://www.halloweenradio.net/;psychedelic, medieval, soundtracks;128;4;for Krueger and his nightmarish friends!;None
+#RADIO_200;http://hazzardstream.de:7777/?sid;Stream;MP3;http://www.hazzardofdarkness.net/;gothic;192;4;;None
+RADIO_201;http://149.56.175.167:5461/;Stream;MP3;http://www.hiphoprequest.com/;hiphop, urban, r'n'b, rap;128;4;;None
+RADIO_202;http://streaming.radionomy.com/1HITS50s;Stream;MP3;http://www.hits50s.com/;50s;128;3;;None
+RADIO_203;http://streaming.radionomy.com/1HITS60s;Stream;MP3;http://www.hits70s.com/;60s;128;3;;None
+RADIO_204;http://streaming.radionomy.com/1HITS70s;Stream;MP3;http://www.hits70s.com/;70s;128;4;;None
+RADIO_205;http://streaming.radionomy.com/1HITS80s;Stream;MP3;http://www.hits80s.com/;80s;128;4;;None
+RADIO_206;http://streaming.radionomy.com/1HITS90s;Stream;MP3;http://www.hits90s.com/;90s;128;4;;None
+RADIO_207;http://streaming.radionomy.com/Instrumentals-Forever;Stream;MP3;http://www.instrumentalsforever.com/;easy listening, swing, tango, soundtracks, instrumental;128;4;;None
+RADIO_208;http://star.jointil.net/proxy/jrn_reggae?mp=/stream/;Stream;MP3;http://www.jointil.com/;reggae, reggaeton, dub;128;4;;None
+#RADIO_209;http://88.193.126.75:8000/stream/;Stream;MP3;http://www.kultasointu.com/;nature, ambient, chill;128;3;;None
+RADIO_210;http://192.111.140.6:8105/stream/2/;Stream;MP3;http://www.laxestereo.com/;salsa, latin, jazz, world;128;2;;None
+RADIO_211;https://ledjamradio.ice.infomaniak.ch/ledjamradio.mp3;Stream;MP3;http://www.ledjamradio.com/;pop, reggae, funk, rap, soul;128;4;;None
+RADIO_212;http://nl1.streamhosting.ch/;Stream;MP3;http://www.lounge-radio.com/;chill, easy listening, lounge, downtempo;128;4;enjoy this light summer-plate consisting of downtempo and fresh beats of nujazz - dipped into the warmth of brazil electro and finely served with a breath of ambient.;None
+RADIO_213;http://streaming.radionomy.com/GameRoomAmbience;Stream;MP3;http://www.mcnabbgames.com/;ambient, easy listening;128;4;;None
+RADIO_214;http://stream.multicult.fm:8000/hifi;Stream;MP3;http://www.multicult.fm/;world;160;4;;None
+RADIO_215;http://streaming.radionomy.com/ProgulusRadio;Stream;MP3;http://www.progulus.com/;70s, rock;128;4;;None
+RADIO_216;http://streaming.radionomy.com/ProgulusMetalRadio;Stream;MP3;http://www.progulus.com/metal/;metal, hard rock;128;3;;None
+RADIO_217;http://stream.punkrockers-radio.de:8000/prr.ogg;Stream;OGG;http://www.punkrockers-radio.de/;punk;128;3;;None
+RADIO_218;http://streaming.radionomy.com/RadioAlperose;Stream;MP3;http://www.radio-alperose.ch/;folk, folktronica, country, oldies, pop, rock, german;128;2;;None
+RADIO_219;http://streaming.radionomy.com/buddha-bar;Stream;MP3;http://www.radiobuddhabar.com/;chill, easy listening, lounge, trip-hop, ambient;128;4;;None
+RADIO_220;https://laut.fm/monacensis;Stream;MP3;http://www.radio-monacensis.de/;medieval;128;3;;None
+RADIO_221;http://streaming.radionomy.com/Radio-Mozart;Stream;MP3;http://www.radiomozart.com/;baroque, classic, symphony, opera, chamber;128;4;;None
+RADIO_222;http://streaming.radionomy.com/Ambiance-Brasil;Stream;MP3;http://www.radionomy.com/en/radio/ambiance-brasil/index;bossa nova, brazilian;128;3;;None
+RADIO_223;http://streaming.radionomy.com/POPHITSSTATION;Stream;MP3;http://www.radionomy.com/en/radio/pophitsstation/index;hits, charts, pop, rock;128;3;;None
+RADIO_224;http://streaming.radionomy.com/Radio-Progressive;Stream;MP3;http://www.radioprogressive.com/;goa, trance, minimal, chill, dance;128;4;If you like fat, relaxing and pumping Progressive Trance beats, this is your station.;None
+RADIO_225;http://stream.srg-ssr.ch/m/rsc_de/mp3_128;Stream;MP3;http://www.radioswissclassic.ch/;classical;128;4;;None
+RADIO_226;http://stream.srg-ssr.ch/m/rsj/mp3_128;Stream;MP3;http://www.radioswissjazz.ch/;jazz;128;3;;None
+RADIO_227;http://stream.srg-ssr.ch/m/rsp/mp3_128;Stream;MP3;http://www.radioswisspop.ch/;pop;128;4;;None
+RADIO_228;http://streaming.radionomy.com/ReggaeNation;Stream;MP3;http://www.reggaenation.com/;dancehall, dub, reggae;128;3;Traditional Reggae Playing the best of from Jamaica & international;None
+RADIO_229;http://mp3channels.webradio.rockantenne.de/rockantenne;Stream;MP3;http://www.rockantenne.de/;rock;128;3;;None
+RADIO_230;https://rundfunk.ice.infomaniak.ch/rundfunk-192.mp3;Stream;MP3;http://www.rundfunk.fm;alternative;192;4;;None
+RADIO_231;http://alternative.mthn.net:8700/;Stream;MP3;http://www.shoutedfm.de/;punk, hardcore, alternative;128;3;;None
+RADIO_232;http://black.mthn.net:8300/;Stream;MP3;http://www.shoutedfm.de/;hiphop, rap, rnb, dancehall;128;3;;None
+RADIO_233;http://break.mthn.net:8800/;Stream;MP3;http://www.shoutedfm.de/;partybreaks, remixes;128;4;;None
+RADIO_234;http://club.mthn.net:8200/;Stream;MP3;http://www.shoutedfm.de/;trance, techno, house, electro;128;4;;None
+RADIO_235;http://house.mthn.net:8500/;Stream;MP3;http://www.shoutedfm.de/;house, funk;128;4;;None
+RADIO_236;http://main.mthn.net:8000/;Stream;MP3;http://www.shoutedfm.de/;charts, pop;128;3;;None
+RADIO_237;http://streaming.radionomy.com/SlowRadioCom;Stream;MP3;http://www.slowradio.com/;romantic, easy listening, hits;128;3;;None
+RADIO_238;http://45.79.92.185:8007/stream/;Stream;MP3;http://www.smoothjazztampa.com/;jazz, easy listening;128;4;Smooth Jazz Tampa - the Bay areas Smoothest Music 24/7;None
+RADIO_239;http://streaming.radionomy.com/SurfabillyFreakout;Stream;MP3;http://www.surfabillyfreakout.com/;rockabilly, psychobilly, rock'n'roll, rock;128;3;;None
+RADIO_240;http://streaming.radionomy.com/WorldClassAlternative;Stream;MP3;http://www.worldclassalternative.com/;rock, grunge, hits;128;4;The Alternative to Alternative: Playing a mix of familiar and unknown in an upbeat and serious tempo, but never heavy or hard. Alternative music from 80's, 90's, and now.;None
+RADIO_241;http://stream.audioasyl.net:8000/audioasyl;Stream;MP3;https://audioasyl.net/;alternative;320;4;;None
+RADIO_242;http://bytefm.cast.addradio.de/bytefm/main/mid/stream;Stream;MP3;https://www.byte.fm/;pop;128;3;;None
+RADIO_243;http://stream.electroradio.fm/192k/;Stream;MP3;https://www.electroradio.fm/;house, electro, techno, electronic;192;4;;None
+RADIO_244;http://streaming.radionomy.com/cool-relax;Stream;MP3;https://www.facebook.com/Coolandrelax;ambient, easy listening, pop, chill, downtempo;128;4;;None
+RADIO_245;http://streaming.radionomy.com/It-sTimeforRock-nRoll;Stream;MP3;https://www.garage-rock-radio.com/;garage rock, psychedelic, rockabilly, rock'n'roll;128;3;;None
+RADIO_246;http://streaming.radionomy.com/JamendoHits;Stream;MP3;https://www.jamendo.com;hits, charts;128;3;;None
+RADIO_247;http://streaming.radionomy.com/JamendoLounge;Stream;MP3;https://www.jamendo.com;lounge, easy listening;128;4;;None
+RADIO_248;http://streaming.radionomy.com/ABC-Lounge;Stream;MP3;https://www.radionomy.com/en/radio/abc-lounge/index;lounge;128;4;;None
+RADIO_249;http://relay-ams.gameowls.com:80/all.mp3;Stream;MP3;http://all.rainwave.cc;game;128;4;;MP3_NLayer
+RADIO_250;http://relay-ams.gameowls.com:80/game.mp3;Stream;MP3;http://game.rainwave.cc;game;128;4;;NONE
+RADIO_251;http://relay-ams.gameowls.com:80/chiptune.mp3;Stream;MP3;http://chiptune.rainwave.cc;game;128;4;;NONE
+RADIO_252;http://relay-ams.gameowls.com:80/ocremix.mp3;Stream;MP3;http://ocr.rainwave.cc;game;128;4;;NONE
+RADIO_253;http://relay-ams.gameowls.com:80/covers.mp3;Stream;MP3;http://covers.rainwave.cc;game;128;4;;NONE
+RADIO_254;https://revolutionradio.ru:8443/live.ogg;Stream;OGG;http://revolutionradio.ru;trance;128;3;;NONE
+#RADIO_255;http://73.83.212.189:8000/;Stream;MP3;http://www.radionomy.com/en/radio/dungeonsandsoundscapes/index;Classic, Ambient, Game;128;4;;NONE
+#RADIO_256;http://73.83.212.189:8000/;Stream;MP3;http://www.radionomy.com/en/radio/dungeonsandsoundscapes/index;Classic, Ambient, Game;128;4;;NONE
