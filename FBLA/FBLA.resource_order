@@ -18,7 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Jard","order":1,"path":"sprites/Jard/Jard.yy",},
-    {"name":"ObjDepth","order":2,"path":"objects/ObjDepth/ObjDepth.yy",},
     {"name":"ObjJard","order":1,"path":"objects/ObjJard/ObjJard.yy",},
+    {"name":"par_entity","order":2,"path":"objects/par_entity/par_entity.yy",},
   ],
 }
