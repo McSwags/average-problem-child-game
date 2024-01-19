@@ -38,6 +38,7 @@
     {"id":{"name":"Jard","path":"sprites/Jard/Jard.yy",},},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"ObjJard","path":"objects/ObjJard/ObjJard.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"par_entity","path":"objects/par_entity/par_entity.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
