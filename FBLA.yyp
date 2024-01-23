@@ -31,10 +31,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
-    {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},
+    {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
     {"id":{"name":"Jard","path":"sprites/Jard/Jard.yy",},},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"ObjJard","path":"objects/ObjJard/ObjJard.yy",},},

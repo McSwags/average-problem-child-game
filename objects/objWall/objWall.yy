@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprWall",
-    "path": "sprites/sprWall/sprWall.yy",
+    "name": "sprCollision",
+    "path": "sprites/sprCollision/sprCollision.yy",
   },
   "spriteMaskId": null,
   "visible": true,
