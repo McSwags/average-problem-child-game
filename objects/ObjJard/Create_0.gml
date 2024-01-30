@@ -17,3 +17,4 @@ move_y = 0;
 isSpaceHeld = false
 isBarRed = false
 barFlash = 0
+
