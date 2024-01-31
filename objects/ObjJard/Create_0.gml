@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+bricks = 10;
 
 attribute_speed = 6;
 slime = 100;
@@ -17,3 +18,4 @@ move_y = 0;
 isSpaceHeld = false
 isBarRed = false
 barFlash = 0
+
