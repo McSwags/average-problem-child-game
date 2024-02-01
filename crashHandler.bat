@@ -4,7 +4,7 @@ SET F="PJMonkey.jpg"
 
 IF EXIST %F% (
   ECHO %F% is existing
-  REM REPLACE WITH RUN GAME.EXE
+  REM REPLACE WITH RUN GAME.EXE for example 'start "" C:\Users\%USER%\...\FBLA.exe'
 ) ELSE (
 	@echo off
 	:crash
