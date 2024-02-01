@@ -7,4 +7,5 @@
   <li>Added parallax skybox</li>
   <li>Refined throwing physics</li>
   <li>Performance improvement with "landed" slimeballs</li>
+  <li>Everyones favorite crashHandler.bat (something i cooked up)</li>
 </ul>
