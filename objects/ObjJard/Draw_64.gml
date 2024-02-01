@@ -26,3 +26,4 @@ else if (slime > 20 && isBarRed == true)
 	barFlash = 0
 }
 
+draw_text(20, 45, "Slimeballs: "+string(bricks))
