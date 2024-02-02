@@ -4,7 +4,7 @@
   "name": "SprTileset1",
   "bbox_bottom": 159,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 217,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

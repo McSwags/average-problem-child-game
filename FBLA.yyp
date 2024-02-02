@@ -34,10 +34,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"SprNasty","path":"sprites/SprNasty/SprNasty.yy",},},
+    {"id":{"name":"collision_normal","path":"scripts/collision_normal/collision_normal.yy",},},
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
     {"id":{"name":"objProjectile","path":"objects/objProjectile/objProjectile.yy",},},
     {"id":{"name":"ObjParallaxControl","path":"objects/ObjParallaxControl/ObjParallaxControl.yy",},},
