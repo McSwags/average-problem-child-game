@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description draw slime stats
 // You can write your code in this editor
 
 // colors for slime bar fill
