@@ -11,7 +11,7 @@ draw_rectangle(15, 5, (slime * 2) + 15, 30, false)
 
 draw_set_color(c_black);
 
-if(x > 5200)	// 5200 is indeed the magic number
+if(x > X_TRANSITION)	// doing this CORRECTLY WITH A CONSTANT
 	draw_set_color(c_white);
 
 draw_rectangle(15, 5, 215, 30, true)

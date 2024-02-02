@@ -4,6 +4,16 @@ event_inherited();
 
 bricks = 100;
 
+X_TRANSITION = 5200; // where the boss effects kick in
+				     // CAN ONLY BE CHANGED AT THE START OF A ROOM
+	
+die = false;		 // for save file
+ability = "none";	
+ballsThrown = 0;
+
+
+
+
 attribute_speed = 6;
 slime = 100;
 doubleJumps = 1;

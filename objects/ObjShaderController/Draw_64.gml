@@ -1,8 +1,8 @@
-/// @description Such shader, much graphic
+/// @description Such shader, much graphics
 // You can write your code in this editor
 	
 	
-if(ObjJard.x>5200){	
+if(ObjJard.x > ObjJard.X_TRANSITION){	
 	bktglitch_activate();
 	
 	bktglitch_config_preset(BktGlitchPreset.A);

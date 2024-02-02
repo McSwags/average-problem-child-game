@@ -98,9 +98,11 @@ var _cam_x = camera_get_view_x(view_camera[0]);
 layer_x("parallax_background_1", _cam_x * 0.25); // changing the 0.25 and 0.5 changes parallax speed
 layer_x("parallax_background_2", _cam_x * 0.5);  // DO NOT CHANGE EITHER OF THESE VALUES!!!!!!
 												 // YOU WILL REGRET IT!!!!!!
-// why did i try this
+												 
+// why did i even  this
 /*
 Room1.background_color = c_red;
+
 
 ...and why doesn't this work but my even worse solution is acceptable
 
@@ -112,7 +114,7 @@ i have so many questions
 
 */
 
-if(x>=5206)		// boss fight prep, may just need to make a new room
+if(x>=X_TRANSITION)		// boss fight prep, may just need to make a new room
 {
 	var b_cloud = layer_background_get_id(layer_get_id("B_Clouds"));
 	var b_distant = layer_background_get_id(layer_get_id("B_Distant_Ground"));
@@ -132,7 +134,7 @@ if(x>=5206)		// boss fight prep, may just need to make a new room
 		}
 	}
 }
-else if(x<5206)	// reset
+else if(x<X_TRANSITION)	// reset
 {
 	var b_cloud = layer_background_get_id(layer_get_id("B_Clouds"));
 	var b_distant = layer_background_get_id(layer_get_id("B_Distant_Ground"));
@@ -154,3 +156,8 @@ else if(x<5206)	// reset
 }
 // we might as well make a separate room for the boss fight
 #endregion
+
+
+if(y > 875){			// fall to void
+	room_restart();
+}
