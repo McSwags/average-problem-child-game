@@ -51,9 +51,14 @@ else if (coyoteFrame <= maxCoyoteTime && keyboard_check(vk_space) && !isSpaceHel
 }
 else if (doubleJumps > 0 && keyboard_check(vk_space) && isSpaceHeld == false)
 {
-	move_y = -attribute_jumpSpeed;	
-	doubleJumps--;
 	slime -= 5;
+	
+	if(slime>0){
+		move_y = -attribute_jumpSpeed;	
+		doubleJumps--;
+	}
+	else
+		slime = 0;
 }
 else if (move_y < attribute_maxFallSpeed) move_y += attribute_gravity;
 
@@ -134,7 +139,7 @@ else if(x<5206)	// reset
 	
 	for (var i = 1; i <= 180; i += 1){
 		if(i % 3 == 0)	// arghhhhh why doesnt this dang thing work!!!!!!
-		{				// yahhh just create new room atp
+		{
 			col_red = merge_colour(c_red, c_white, i/180);
 			col_grey = merge_colour(c_grey, c_white, i/180);
 		
@@ -145,5 +150,5 @@ else if(x<5206)	// reset
 		}
 	}
 }
-
+// we might as well make a separate room for the boss fight
 #endregion

@@ -25,5 +25,3 @@ else if (slime > 20 && isBarRed == true)
 	isBarRed = false;
 	barFlash = 0
 }
-
-draw_text(20, 45, "Slimeballs: "+string(bricks))
