@@ -36,3 +36,5 @@ function collision_normal(x, y, obj, radius=4, spacing=1)
     }
     return (-1);
 }
+
+// look at me boy, writing scripts to do normal things

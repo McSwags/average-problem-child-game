@@ -11,3 +11,5 @@ else
 }
 
 if (isBarRed) alarm_set(0, 90)
+
+// this stupid thing has caused so many problems

@@ -13,3 +13,4 @@ if (n > -1) {
     draw_arrow(mx, my, mx + lengthdir_x(30, n), my + lengthdir_y(30, n), 11);
 }
 
+// sorry i fucked with this a little to get the shader to work but it should be fine :)
