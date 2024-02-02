@@ -1,4 +1,5 @@
-/// @description Walls is glue, i think
+/// @description Walls is glue
+// You can write your code in this editor
 
 friction = 999;
 gravity = 0;
@@ -16,8 +17,8 @@ gravity = 0;
 
 if place_meeting(x+hspeed,y,objWall)	// prevent collision (bad)
 {
-	hspeed = 0;	// NO NO NO NO YOU'RE PREVENTING THE COLLISION FROM EVER HAPPENING
-	vspeed = 0;	// THAT MEANS SLIME WILL NEVER STOP
+	hspeed = 0;
+	vspeed = 0;
 }
 
 //vertical

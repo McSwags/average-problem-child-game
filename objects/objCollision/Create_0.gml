@@ -1,0 +1,1 @@
+width = display_get_width()

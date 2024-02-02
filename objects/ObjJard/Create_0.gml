@@ -1,4 +1,4 @@
-/// @description AWAKEN THE JARD
+/// @description Insert description here
 // You can write your code in this editor
 event_inherited();
 
@@ -11,6 +11,8 @@ maxDoubleJumps = 1;
 maxCoyoteTime = 10; // measured in frames
 coyoteTime = true;
 coyoteFrame = 0; // measure in frames
+
+speedTicker = 0;
 
 
 move_x = 0;
