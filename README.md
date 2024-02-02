@@ -4,8 +4,15 @@
 
 <h1>Polish</h1>
 <ul>
-  <li>Added parallax skybox</li>
-  <li>Refined throwing physics</li>
-  <li>Performance improvement with "landed" slimeballs</li>
-  <li>Everyones favorite crashHandler.bat (something i cooked up)</li>
+  <li>Save files exist</li>
+  <li>Shader</li>
+  <li>Fixed color changing sky</li>
+  <li>all thats left is enemy AI and we have a functioning game?</li>
+</ul>
+<h2>CODY! We need these sprites (please and thank you :)</h2>
+<ul>
+  <li>Spike</li>
+  <li>Checkpoint</li>
+  <li>Nasty (the landed slimeballs)</li>
+  <li>Pojectile</li>
 </ul>
