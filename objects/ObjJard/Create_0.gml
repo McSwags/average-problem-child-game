@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description AWAKEN THE JARD
 // You can write your code in this editor
 event_inherited();
 
