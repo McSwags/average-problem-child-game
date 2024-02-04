@@ -39,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"SprBarrier","path":"sprites/SprBarrier/SprBarrier.yy",},},
+    {"id":{"name":"SprNext","path":"sprites/SprNext/SprNext.yy",},},
     {"id":{"name":"SprNasty","path":"sprites/SprNasty/SprNasty.yy",},},
     {"id":{"name":"collision_normal","path":"scripts/collision_normal/collision_normal.yy",},},
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
@@ -48,7 +49,9 @@
     {"id":{"name":"SprBugger","path":"sprites/SprBugger/SprBugger.yy",},},
     {"id":{"name":"sprJardL","path":"sprites/sprJardL/sprJardL.yy",},},
     {"id":{"name":"bktGlitch","path":"scripts/bktGlitch/bktGlitch.yy",},},
+    {"id":{"name":"sameasthefirstlevel","path":"rooms/sameasthefirstlevel/sameasthefirstlevel.yy",},},
     {"id":{"name":"sprJardR","path":"sprites/sprJardR/sprJardR.yy",},},
+    {"id":{"name":"ObjNextRoom","path":"objects/ObjNextRoom/ObjNextRoom.yy",},},
     {"id":{"name":"shdBktGlitch","path":"shaders/shdBktGlitch/shdBktGlitch.yy",},},
     {"id":{"name":"bck_Foreground","path":"sprites/bck_Foreground/bck_Foreground.yy",},},
     {"id":{"name":"bck_Clouds","path":"sprites/bck_Clouds/bck_Clouds.yy",},},
@@ -75,6 +78,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"sameasthefirstlevel","path":"rooms/sameasthefirstlevel/sameasthefirstlevel.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
