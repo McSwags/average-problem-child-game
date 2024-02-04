@@ -9,6 +9,7 @@
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"bktGlitch","order":1,"path":"folders/Scripts/bktGlitch.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
@@ -16,7 +17,6 @@
     {"name":"Jard","order":1,"path":"folders/Sprites/Jard.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"bktGlitch","order":1,"path":"folders/Scripts/bktGlitch.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SprNasty","order":3,"path":"sprites/SprNasty/SprNasty.yy",},
@@ -40,5 +40,6 @@
     {"name":"bck_Near_Ground","order":20,"path":"sprites/bck_Near_Ground/bck_Near_Ground.yy",},
     {"name":"bck_Distant_Ground","order":17,"path":"sprites/bck_Distant_Ground/bck_Distant_Ground.yy",},
     {"name":"objCheckpoint","order":8,"path":"objects/objCheckpoint/objCheckpoint.yy",},
+    {"name":"tileset","order":21,"path":"sprites/tileset/tileset.yy",},
   ],
 }

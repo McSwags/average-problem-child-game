@@ -8,7 +8,7 @@ if (file_exists("jard.ini"))
         y = ini_read_real("player", "y", y);
         slime = ini_read_real("player", "slime", slime);
 		
-		ability = ini_read_real("player", "ability", ability);
+		ability = ini_read_string("player", "ability", ability);	// STRING
 		bricks = ini_read_real("player", "totalBalls", bricks);
 		ballsThrown = ini_read_real("player", "ballsThrown", ballsThrown);
 		

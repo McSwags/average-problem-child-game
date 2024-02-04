@@ -20,6 +20,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bktGlitch","folderPath":"folders/Scripts/bktGlitch.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
@@ -27,7 +28,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Jard","folderPath":"folders/Sprites/Jard.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bktGlitch","folderPath":"folders/Scripts/bktGlitch.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sneeky.jpg","CopyToMask":-1,"filePath":"datafiles",},
@@ -66,6 +66,7 @@
     {"id":{"name":"bck_Near_Ground","path":"sprites/bck_Near_Ground/bck_Near_Ground.yy",},},
     {"id":{"name":"bck_Distant_Ground","path":"sprites/bck_Distant_Ground/bck_Distant_Ground.yy",},},
     {"id":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},},
+    {"id":{"name":"tileset","path":"sprites/tileset/tileset.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

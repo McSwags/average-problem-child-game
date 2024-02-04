@@ -3,6 +3,7 @@ var _xspd = 3 * (keyboard_check(vk_right) - keyboard_check(vk_left));
 _cx += _xspd
 camera_set_view_pos(view_camera[0], _cx, 0);
 
+// hbqerhbfaekfgkiawbfbadv
 var _b = ds_map_find_first(background_map);
 repeat(ds_map_size(background_map))
     {

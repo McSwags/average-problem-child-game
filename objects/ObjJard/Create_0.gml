@@ -8,7 +8,7 @@ X_TRANSITION = 5200; // where the boss effects kick in
 				     // CAN ONLY BE CHANGED AT THE START OF A ROOM
 	
 die = false;		 // for save file
-ability = "none";	
+ability = "none";	 // this is a STRING
 ballsThrown = 0;
 
 
@@ -32,3 +32,13 @@ isSpaceHeld = false
 isBarRed = false
 barFlash = 0
 
+// more save file shenanigans because THE FIRST FUCKING SPIKES CRASH THE GAME
+
+ini_open("jard.ini");
+	ini_write_real("player", "x", other.x);
+	ini_write_real("player", "y", other.y);
+	ini_write_real("player", "slime", other.slime);
+	ini_write_string("player", "ability", other.ability);
+	ini_write_real("player", "totalBalls", other.bricks);
+	ini_write_real("player", "ballsThrown", other.ballsThrown);
+ini_close();

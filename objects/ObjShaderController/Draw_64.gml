@@ -14,6 +14,7 @@ if(ObjJard.x > ObjJard.X_TRANSITION){
 	bktglitch_set_jumble_speed(0);
 	bktglitch_set_channel_dispersion(0);
 	
+	// I'm pulling my hair out over this one
 	draw_surface(application_surface, 0, 0);
 
 	bktglitch_deactivate();
