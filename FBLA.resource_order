@@ -17,6 +17,7 @@
     {"name":"Jard","order":1,"path":"folders/Sprites/Jard.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Menu","order":10,"path":"folders/Sprites/Menu.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SprBarrier","order":8,"path":"sprites/SprBarrier/SprBarrier.yy",},
@@ -27,7 +28,7 @@
     {"name":"bck_Ground_Path","order":19,"path":"sprites/bck_Ground_Path/bck_Ground_Path.yy",},
     {"name":"SprBugger","order":7,"path":"sprites/SprBugger/SprBugger.yy",},
     {"name":"sprJardL","order":1,"path":"sprites/sprJardL/sprJardL.yy",},
-    {"name":"sameasthefirstlevel","order":1,"path":"rooms/sameasthefirstlevel/sameasthefirstlevel.yy",},
+    {"name":"rmLvl2","order":1,"path":"rooms/rmLvl2/rmLvl2.yy",},
     {"name":"sprJardR","order":2,"path":"sprites/sprJardR/sprJardR.yy",},
     {"name":"ObjNextRoom","order":12,"path":"objects/ObjNextRoom/ObjNextRoom.yy",},
     {"name":"bck_Foreground","order":18,"path":"sprites/bck_Foreground/bck_Foreground.yy",},
