@@ -3,9 +3,9 @@
 
 var player = instance_nearest(x, y, ObjJard); 
 
-if distance_to_object(player) < 200
+if distance_to_object(player) < 300
 {
-    var targetDir = point_direction(x, y, player.x, player.y);
+    var targetDir = point_direction(x, y, player.x, y);
 
     direction = targetDir
 

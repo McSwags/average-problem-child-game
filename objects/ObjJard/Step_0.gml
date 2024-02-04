@@ -99,7 +99,7 @@ layer_x("parallax_background_1", _cam_x * 0.25); // changing the 0.25 and 0.5 ch
 layer_x("parallax_background_2", _cam_x * 0.5);  // DO NOT CHANGE EITHER OF THESE VALUES!!!!!!
 												 // YOU WILL REGRET IT!!!!!!
 												 
-// why did i even  this
+// why did i even try this
 /*
 Room1.background_color = c_red;
 
@@ -158,6 +158,6 @@ else if(x<X_TRANSITION)	// reset
 #endregion
 
 
-if(y > 875){			// fall to void
+if(y > 875){			// fall to void = reset to last checkpoint
 	room_restart();
 }

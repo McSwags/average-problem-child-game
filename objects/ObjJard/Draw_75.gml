@@ -2,7 +2,7 @@
 
 // colors for slime bar fill
 
-if (barFlash = 0)
+if (barFlash == 0)
 	draw_set_color(c_green);
 else if (barFlash = 1)
 	draw_set_color(c_red);

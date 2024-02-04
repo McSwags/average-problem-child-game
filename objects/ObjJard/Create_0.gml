@@ -5,11 +5,11 @@ event_inherited();
 bricks = 100;
 
 X_TRANSITION = 5200; // where the boss effects kick in
-				     // CAN ONLY BE CHANGED AT THE START OF A ROOM
+				     // SHOULD ONLY BE CHANGED AT THE START OF A ROOM
 	
 die = false;		 // for save file
 ability = "none";	 // this is a STRING
-ballsThrown = 0;
+ballsThrown = 0;	
 
 
 
@@ -31,6 +31,10 @@ move_y = 0;
 isSpaceHeld = false
 isBarRed = false
 barFlash = 0
+
+
+parallax = false; // parallax toggle for cody
+
 
 // more save file shenanigans because THE FIRST FUCKING SPIKES CRASH THE GAME
 

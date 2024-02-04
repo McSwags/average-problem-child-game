@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ObjNextRoom",
+  "name": "objLethalProjectile",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"ObjJard","path":"objects/ObjJard/ObjJard.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Jard",
+    "path": "folders/Objects/Jard.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprNext",
-    "path": "sprites/SprNext/SprNext.yy",
+    "name": "SprLethalProjectile",
+    "path": "sprites/SprLethalProjectile/SprLethalProjectile.yy",
   },
   "spriteMaskId": null,
   "visible": true,
