@@ -11,8 +11,5 @@
 </ul>
 <h2>CODY! We need these sprites (please and thank you :)</h2>
 <ul>
-  <li>Spike</li>
-  <li>Checkpoint</li>
-  <li>Nasty (the landed slimeballs)</li>
-  <li>Pojectile</li>
+  <li>Boss (128x128 probbaly)</li>
 </ul>
