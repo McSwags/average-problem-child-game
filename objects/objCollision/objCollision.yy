@@ -2,15 +2,12 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objCollision",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -33,5 +30,5 @@
     "path": "sprites/sprCollision/sprCollision.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

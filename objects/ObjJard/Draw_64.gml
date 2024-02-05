@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description draw slime stats
 // You can write your code in this editor
 
 // colors for slime bar fill
@@ -25,5 +25,3 @@ else if (slime > 20 && isBarRed == true)
 	isBarRed = false;
 	barFlash = 0
 }
-
-draw_text(20, 45, "Slimeballs: "+string(bricks))

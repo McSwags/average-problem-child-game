@@ -1,5 +1,5 @@
-/// @description Insert description here
-// Throwing shit idk
+/// @description Throwing script
+// Throwing shit
 if(bricks>0){
 	var inst = instance_create_layer(x, y-45, "Instances", objProjectile);
 	with (inst)
