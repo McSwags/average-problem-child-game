@@ -7,7 +7,6 @@ if(bricks>0){
 	    speed = 6;
 	    direction = point_direction(x, y, mouse_x, mouse_y);
 		gravity = 0.1;
-		ballsThrown++;
 	}
 
 	bricks--;	// let's still use this as a counter

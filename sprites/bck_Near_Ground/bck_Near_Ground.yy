@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "FBLA",
-    "path": "FBLA.yyp",
+    "name": "Backgrounds",
+    "path": "folders/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,4 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto_next();
+state = "idle";
+hp = 100;
+
+stepinterval = 120;
+
+hspeed = 2;
