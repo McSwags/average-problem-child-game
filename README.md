@@ -12,4 +12,5 @@
 <h2>CODY! We need these sprites (please and thank you :)</h2>
 <ul>
   <li>Boss (128x128 probbaly)</li>
+  <li>DOORS (64x64?)</li>
 </ul>
