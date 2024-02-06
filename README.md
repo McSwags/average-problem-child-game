@@ -11,8 +11,7 @@
 </ul>
 <h2>CODY! We need these sprites (please and thank you :)</h2>
 <ul>
-  <li>Spike</li>
-  <li>Checkpoint</li>
-  <li>Nasty (the landed slimeballs)</li>
-  <li>Pojectile</li>
+  <li>Sign</li>
+  <li>Jards face (spr_portrait_player,  spr_portrait_examplechar_idle), can be the same </li>
+  <li>Inside of Jard's mouth (spr_portrait_examplechar_mouth)</li>
 </ul>
