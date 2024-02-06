@@ -4,4 +4,4 @@
 
 <h1>zip version</h1>
 
-ALL WE NEED NOW IS A STORYLINE!!!
+please use the branch src-zip for an up to date version!!
