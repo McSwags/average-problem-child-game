@@ -1,1 +1,0 @@
-width = display_get_width() // what the hell does this do
