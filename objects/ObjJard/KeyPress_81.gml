@@ -1,5 +1,5 @@
-/// @description Throwing script
-// Throwing shit
+/// @description Insert description here
+// Throwing shit idk
 if(bricks>0){
 	var inst = instance_create_layer(x, y-45, "Instances", objProjectile);
 	with (inst)
@@ -8,6 +8,7 @@ if(bricks>0){
 	    direction = point_direction(x, y, mouse_x, mouse_y);
 		gravity = 0.1;
 	}
-
+	
+	create_dialogue("You throw with all your might... ", -1);
 	bricks--;	// let's still use this as a counter
 }
