@@ -11,7 +11,5 @@
 </ul>
 <h2>CODY! We need these sprites (please and thank you :)</h2>
 <ul>
-  <li>Sign</li>
-  <li>Jards face (spr_portrait_player,  spr_portrait_examplechar_idle), can be the same </li>
-  <li>Inside of Jard's mouth (spr_portrait_examplechar_mouth)</li>
+   <li>evil cat</li>
 </ul>
